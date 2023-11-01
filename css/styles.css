@@ -9,14 +9,29 @@ Font Color (Dark Brown): #431805;
 
 body {
     background-color: #FDFDEF;
-}
-
-h1,h2 {
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
 }
 
-h3, h4, h5, h6 {
-    font-family: 'Mitr', sans-serif;
+h1 { 
+    font-family:'Poiret One', sans-serif;
+    font-size: 2.75em;
+}
+
+h2 { 
+    font-family:'Poiret One', sans-serif;
+    font-size: 2.4em;
+}
+
+
+h3 {
+    font-family: 'Mitr', 'Poppins', sans-serif;
+    font-size: 2em;
+}
+
+h4, h5, h6 {
+    font-family: 'Mitr', 'Poppins', sans-serif;
 }
 
 p {
