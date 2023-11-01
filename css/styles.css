@@ -3,6 +3,7 @@ Colors used:
 Primary Color (White): #FDFDEF;
 Primary Color (Dark Green): #1F371F;
 Secondary Color (Pink): #B58E90;
+Secondary Color (Blue): #218390;
 Tertiary Color (Orange): #D4753E;
 Font Color (Dark Brown): #431805;
 */
@@ -37,3 +38,7 @@ h4, h5, h6 {
 p {
     font-family: 'Mulish', sans-serif;
 }
+
+img {
+    width: 100%;
+  }
