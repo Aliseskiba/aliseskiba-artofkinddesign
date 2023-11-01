@@ -42,3 +42,26 @@ p {
 img {
     width: 100%;
   }
+
+  a {
+    color: #B58E90;
+    text-decoration: none; /* No underlining */
+  }
+
+  a:hover {
+    color: #D4753E;
+    text-decoration: underline; /* Underlining when hovering over a link */
+  }
+
+  a:visited {
+    color: purple; /* Change link color to purple when visted */
+  }
+
+  a:active { /* selected link */
+    color: #994c30;
+    outline: #994c30;
+  }
+
+  a:focus {
+    outline: 2px solid #994c30;
+  }
