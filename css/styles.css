@@ -15,6 +15,7 @@ body {
     line-height: 1.4;
 }
 
+/* font families and sizes */
 h1 { 
     font-family:'Poiret One', sans-serif;
     font-size: 2.75em;
@@ -39,27 +40,28 @@ p {
     font-family: 'Mulish', sans-serif;
 }
 
+/* images */
 img {
     width: 100%;
   }
 
+/* link styles */
   a {
-    color: #B58E90;
+    color: #936f71;
     text-decoration: none; /* No underlining */
-  }
-
-  a:hover {
-    color: #D4753E;
-    text-decoration: underline; /* Underlining when hovering over a link */
   }
 
   a:visited {
     color: purple; /* Change link color to purple when visted */
   }
+  
+  a:hover {
+    color: #D4753E;
+    text-decoration: underline; /* Underlining when hovering over a link */
+  }
 
   a:active { /* selected link */
     color: #994c30;
-    outline: #994c30;
   }
 
   a:focus {
