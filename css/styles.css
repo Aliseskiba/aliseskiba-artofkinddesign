@@ -50,10 +50,6 @@ img {
     color: #936f71;
     text-decoration: none; /* No underlining */
   }
-
-  a:visited {
-    color: purple; /* Change link color to purple when visted */
-  }
   
   a:hover {
     color: #D4753E;
@@ -66,4 +62,45 @@ img {
 
   a:focus {
     outline: 2px solid #994c30;
+  }
+
+  .button {
+    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: #B58E90;
+    color: black; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.2s opacity;
+  }
+
+  .button:hover {
+    color: black;
+    opacity: 0.8;
+  }
+
+  .button:active {
+    background-color: #D4753E;
+    outline: 2px solid #994c30
+  }
+
+  .button.contact {
+    display: inline-block; 
+    background-color: transparent; 
+    text-transform: uppercase;
+    color: black; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 30px;
+    outline: 2px solid #B58E90;
+    transition: 0.2s opacity;
+  }
+
+  .button.contact:hover {
+    background-color: #B58E90;
+  }
+
+  .button.contact:active {
+    background-color: #D4753E;
+    outline: 2px solid #994c30
   }
