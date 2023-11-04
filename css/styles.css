@@ -8,11 +8,7 @@ Tertiary Color (Orange): #D4753E;
 Font Color (Dark Brown): #431805;
 */
 header {
-  background-color:  #FDFDEF;
-  font-family: 'Poppins', sans-serif;
-  padding: 10px;
-  margin: 10px 0px 10px 0px;
-  border-bottom: 12px solid #218390;
+ 
 }
 
 body {
@@ -116,23 +112,20 @@ img {
   }
 
   .linkedin-logo {
-    max-width: 70px;
-    width: 50%;
+    max-width: 30px;
     display: inline-block;
     margin: 20px;
   }
 
   .instagram-logo {
-    max-width: 60px;
-    width: 50%;
+    max-width: 30px;
     display: inline-block;
     margin: 50px 0px;
   }
 
 
   .logo {
-    max-width:100px;
-    width: 50%;
+    max-width:30px;
     display: block;
     box-align: center;
   }
