@@ -114,3 +114,25 @@ img {
     background-color: #D4753E;
     outline: 2px solid #994c30
   }
+
+  .linkedin-logo {
+    max-width: 70px;
+    width: 50%;
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .instagram-logo {
+    max-width: 60px;
+    width: 50%;
+    display: inline-block;
+    margin: 50px 0px;
+  }
+
+
+  .logo {
+    max-width:100px;
+    width: 50%;
+    display: block;
+    box-align: center;
+  }
