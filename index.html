@@ -15,10 +15,10 @@
 </head>
 <body >
     <header>
-        <div>
+        <div class="container">  <!--container/wrapper-->
             <img class="logo" src="img/logo-no-background.png" alt="Art of Kind Design logo" class="logo">
              <nav> 
-            <ul>
+            <ul class="navigation">
                 <li><a href="index.html">Work</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#contact">Contact</a></li>                  
@@ -29,8 +29,8 @@
 
 
     <main>
-        <div> 
-            <div class="hero">
+        <div id="hero"> 
+            <div class="container">  <!--container/wrapper-->
                 <h1 style="color: #1F371F"> Hi, my name is Alise Skiba.</h1>
           
                    <h1>
@@ -42,17 +42,17 @@
             </div>
         </div>
 
-        <div > <!-- my work block-->
-            <div> <!--my work container/ wrapper-->
-                <h2> My Work:</h2>
-                <div> <!-- open row that holds (2) columns for project -->
-                    <div><!-- open first column (used for image) -->
+        <div id="work"> <!-- my work block-->
+            <div class="container"> <!--my work container/ wrapper-->
+                <h2><b> My Work:</b></h2>
+                <div class="row"> <!-- open row that holds (2) columns for project -->
+                    <div class="column"><!-- open first column (used for image) -->
                         <picture>
                             <source srcset="img/home/alise-skiba-portfolio-vela-mobile.jpeg" media="(max-width:767px)">
                             <img src="img/home/alise-skiba-portfolio-vela-desktop.jpeg" alt="Vela">
                         </picture>
                     </div><!-- end first column -->
-                    <div ><!-- open second column (used for text) -->
+                    <div class="column"><!-- open second column (used for text) -->
                         <h3>Vela App</h3><!-- heading for the project -->
                         <p><!-- open paragraph -->
                             A web app for surfers, divers and sailors. 
@@ -66,14 +66,14 @@
                     </div><!-- end second column -->
                 </div><!-- end row that holds (2) columns for project -->
                 
-                <div><!-- open row that holds (2) columns for project -->
-                    <div><!-- open first column (used for image) -->
+                <div class="row"><!-- open row that holds (2) columns for project -->
+                    <div class="column"><!-- open first column (used for image) -->
                       <picture>
                         <source srcset="img/home/alise-skiba-portfolio-doc-swinsons-mobile.jpeg" media="(max-width:767px)">
                         <img src="img/home/alise-skiba-portfolio-doc-swinsons-desktop.jpeg" alt="Doc's Whiskey">
                       </picture>
                     </div><!-- end first column -->
-                    <div ><!-- open second column (used for text) -->
+                    <div class="column"><!-- open second column (used for text) -->
                       <h3>Doc Swinson's Whiskey</h3><!-- heading for the project -->
                       <p><!-- open paragraph -->
                         Doc Swinson's is a Washington based whiskey blending & bottling company. 
@@ -90,14 +90,14 @@
                     </div><!-- end second column -->
                   </div><!-- end row that holds (2) columns for project -->
 
-                  <div><!-- open row that holds (2) columns for project -->
-                    <div><!-- open first column (used for image) -->
+                  <div class="row"><!-- open row that holds (2) columns for project -->
+                    <div class="column"><!-- open first column (used for image) -->
                       <picture>
                         <source srcset="img/home/alise-skiba-cat-enright-yoga-therapy-mobile.jpeg" media="(max-width:767px)">
                         <img src="img/home/alise-skiba-cat-enright-yoga-therapy-desktop.jpeg" alt="Cat Enright Yoga Therapy">
                       </picture>
                     </div><!-- end first column -->
-                    <div><!-- open second column -->
+                    <div class="column"><!-- open second column -->
                       <h3>Cat Enright Yoga Therapy:</h3><!-- heading for the project -->
                       <p><!-- open paragraph -->
                         A Bellingham yoga therapist, Cat needed a website that fit her personality and style. 
@@ -112,11 +112,10 @@
                   </div><!-- end row that holds (2) columns for project -->
             </div><!-- end container/wrapper-->
         </div><!--end my work block-->
-       
     </main>
 
-    <footer id="contact">
-      <div> <!--container/wrapper-->
+    <footer id="contact" >
+      <div class="container"> <!--container/wrapper-->
               <h2>
                   Get in Touch:
               </h2>
