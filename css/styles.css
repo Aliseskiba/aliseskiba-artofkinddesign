@@ -15,7 +15,7 @@ Font Color (Dark Brown): #431805;
 header {
   background-color: #FDFDEF;
   text-align: center;
-  padding: 0px 0px;
+  padding: 20px 0px;
   border-bottom: 2px solid #218390;
   width: 100%;
   height: auto;
@@ -31,6 +31,10 @@ header.css-box-shadow{
   -moz-box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1)  ; 
 }
 
+main {
+  padding-top: 200px;
+}
+
 body {
   background-color: #FDFDEF;
   color: #431805;
@@ -38,7 +42,6 @@ body {
   font-size: 16px;
   line-height: 1.4;
   margin: 0px 50px 10px 50px;
-  
 }
 
 
