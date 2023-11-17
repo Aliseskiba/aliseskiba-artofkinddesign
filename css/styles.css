@@ -12,6 +12,17 @@ Font Color (Dark Brown): #431805;
   box-sizing: border-box;
 }
 
+
+header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #FDFDEF;
+  border-bottom: 2px solid #218390;
+  width: 100%;
+  height: auto;
+}
+
 body {
     background-color: #FDFDEF;
     color: #431805;
@@ -26,6 +37,9 @@ body {
   h1 { 
     font-family:'Poiret One', sans-serif;
     font-size: 2.5em;
+  }
+  #hero h1 {
+    text-align: center; 
   }
 
   h2 { 
@@ -70,6 +84,8 @@ img {
   a:focus {
     outline: 2px solid #994c30;
   }
+
+ 
 
   /* Button styling */
 
@@ -148,3 +164,28 @@ img {
   .column {
     display: inline-block;
   }
+
+
+/* Navigation */
+
+  nav { 
+    width: 100%;
+  }
+
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+
+  }
+
+  nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: larger;
+  }
+  
