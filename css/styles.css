@@ -14,10 +14,9 @@ Font Color (Dark Brown): #431805;
 
 
 header {
-  background-color: #ffe4c4;
+  background-color: #218390;
   text-align: center;
-  padding: 10px 0;
-  background-color: #FDFDEF;
+  padding: 0px 0px;
   border-bottom: 2px solid #218390;
   width: 100%;
   height: auto;
@@ -29,7 +28,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.4;
-    margin: 10px 50px 10px 50px;
+    margin: 0px 50px 10px 50px;
     
   }
 
@@ -78,7 +77,7 @@ img {
   }
 
   a:active { /* selected link */
-    color: #994c30;
+    color: #994c30; 
   }
 
   a:focus {
@@ -189,3 +188,14 @@ img {
     font-size: larger;
   }
   
+
+  /* hero */
+
+#hero { 
+  background-color: #994c30;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 0;
+}
+
+ 
