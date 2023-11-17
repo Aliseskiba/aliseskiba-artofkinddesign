@@ -16,7 +16,7 @@ header {
   background-color: #FDFDEF;
   text-align: center;
   padding: 0px 0px 20px;
-  border-bottom: 2px solid #218390;
+  border-bottom: 2px solid #B58E90;
   width: 100%;
   display: inline-block;
   position:fixed;
@@ -35,6 +35,7 @@ header.css-box-shadow{
 
 main {
   padding-top: 200px;
+  padding-bottom: 100px;
 }
 
 body {
@@ -46,13 +47,31 @@ body {
   margin: 0px 50px 10px 50px;
 }
 
-/* Contact*/
-footer {
-  border: #D4753E solid 2px;
-  border-radius: 12px;
-  padding: 0px 20px;
-  margin-top: 50px;
+/* Footer or Contact*/
+
+section#footer-background {
+  background-color: #B58E90;
   width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+footer#contact {
+  border: #FDFDEF solid 3px;
+  background-color: #FDFDEF;
+  border-radius: 12px;
+  padding: 0px 20px 0px 30px;
+  margin: 20px;
+  width: 90%;
+  display:block;
+  margin:auto;
+  margin-top:50px;
+  
 }
 
 footer.css-box-shadow{
@@ -63,6 +82,7 @@ footer.css-box-shadow{
 	-webkit-box-shadow: 5px 6px 13px rgba(0, 0, 0, 0.3)  ; 
 	-moz-box-shadow: 5px 6px 13px rgba(0, 0, 0, 0.3)  ; 
 }
+
 
 /* Navigation */
 
@@ -259,6 +279,7 @@ Medium devices (640px and larger)
 
   #hero {
     text-align: center;
+    border-bottom: #218390 solid 2px;
   }
 
   #hero span {
@@ -279,10 +300,28 @@ Medium devices (640px and larger)
 
   .col-md-6 {
     width: 50%;
-    float: left;
     padding: 20px;
+    float: left;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
   
+  .row-no-border::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  footer {
+    max-width: 70%;
+    margin:auto;
+    margin-top: 50px;
+  }
+
 }
 
 
