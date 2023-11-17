@@ -15,7 +15,7 @@ Font Color (Dark Brown): #431805;
 header {
   background-color: #FDFDEF;
   text-align: center;
-  padding: 20px 0px;
+  padding: 0px 0px 20px;
   border-bottom: 2px solid #218390;
   width: 100%;
   display: inline-block;
@@ -47,11 +47,21 @@ body {
 }
 
 /* Contact*/
-#contact {
+footer {
   border: #D4753E solid 2px;
   border-radius: 12px;
   padding: 0px 20px;
+  margin-top: 50px;
   width: 100%;
+}
+
+footer.css-box-shadow{
+	/*start ------------*/
+	width: [object Object]px; 
+	height: [object Object]px; 
+	box-shadow: 5px 6px 13px rgba(0, 0, 0, 0.3)  ; 
+	-webkit-box-shadow: 5px 6px 13px rgba(0, 0, 0, 0.3)  ; 
+	-moz-box-shadow: 5px 6px 13px rgba(0, 0, 0, 0.3)  ; 
 }
 
 
@@ -68,7 +78,6 @@ nav > ul {
 
 nav > ul > li {
   display: inline-block;
-
 }
 
 nav > ul > li > a {
@@ -202,8 +211,9 @@ img {
 
 
   .logo {
-    max-width:100px;
+    max-width:80px;
     display: inline-block;
+    padding-bottom: 0px;
   }
 
   /* Layout styling */
