@@ -46,7 +46,13 @@ body {
   margin: 0px 50px 10px 50px;
 }
 
-
+/* Contact*/
+#contact {
+  border: #D4753E solid 2px;
+  border-radius: 12px;
+  padding: 0px 20px;
+  width: 100%;
+}
 
 
 /* Navigation */
@@ -158,7 +164,7 @@ img {
     outline: 2px solid #994c30
   }
 
-  .button.contact {
+  .button-contact {
     display: inline-block; 
     background-color: transparent; 
     text-transform: uppercase;
@@ -170,11 +176,12 @@ img {
     transition: 0.2s opacity;
   }
 
-  .button.contact:hover {
+  .button-contact:hover {
     background-color: #B58E90;
+    color: black;
   }
 
-  .button.contact:active {
+  .button-contact:active {
     background-color: #D4753E;
     outline: 2px solid #994c30
   }
