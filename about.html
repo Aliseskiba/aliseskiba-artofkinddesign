@@ -28,21 +28,21 @@
     </header>
 
 
-    <main>
+    <main id="about-main">
     <div><!--block1-->
         <div class="container"><!--container/wrapper in block 1 start-->
-        <h1>About me:</h1>
+        <h1 style="text-align: center;">About:</h1>
         </div><!--container/wrapper end-->
      </div><!--block 1 end-->
      <div><!--block 2 start-->
         <div class="container"><!--container/wrapper for block 2 start-->
             <picture>
-                <source srcset="img/about/alise-skiba-portfolio_about-picture-mobile.JPG" media="(max-width:767px)">
-                <img src="img/about/alise-skiba-portfolio_about-picture-desktop.JPG" alt="Doc's Whiskey">
+                <source srcset="img/about/alise-skiba-portfolio_about-picture-mobile.JPG" media="(max-width:767px)" class="about-pic">
+                <img class="about-pic" src="img/about/alise-skiba-portfolio_about-picture-desktop.JPG" alt="Doc's Whiskey">
             </picture>
 
-            <div class="container"><!--container/wrapper for columns-->
-                <div><!-- Column 1 start-->
+            <div class="container rows"><!--container/wrapper for columns-->
+                <div class="row col-lg-7"><!-- row 1 start-->
                     <h2> My Story</h2>
                     <p>
                         Hi, I’m Alise, a UX/ UI Designer with 3+ years of professional design experience. I’m originally from Washington state where, yes it “always” rains. I’ve always been an artist, drawing since I was 3 years old!
@@ -59,15 +59,14 @@
                     <p>
                         When I’m not designing or writing, I spend my time outside by the water or in the forest. My three favorite “sports” are snowboarding, aerial silks and soccer! I’m always down to try new physical activities though.. If you see me, then you’ll probably see my shih tzu Buddy close behind.
                     </p>
-                </div><!-- Column 1 end-->
+                </div><!-- row 1 end-->
 
-                <div><!-- Column 2 start-->
-                    <div> <!--row 1 in column start-->
+                <div id="skills" class="row col-lg-5"><!-- row 2 start-->
                         <h2>
                             Skills & Tools
                         </h2>
-                    </div><!--row 1 in column ends-->
-                    <div><!--row 2 in column start-->
+                    <div id="skills-tools">
+                    <div class="col-md-6 small-row"><!--column 1 in row start-->
                         <h3> Relevant Skills</h3>
                         <ul>
                             <li>Research</li>
@@ -77,8 +76,8 @@
                             <li> App design</li> 
                             <li> HTML/ CSS/ Javascript</li>  
                         </ul>
-                    </div><!--row 2 in column ends-->
-                    <div><!--row 3 in column start-->
+                    </div><!--column 1 in row end-->
+                    <div class="col-md-6 small-row"><!--column 2 in row start-->
                         <h3> Tools I Use</h3>
                         <ul>
                             <li>Figma</li>
@@ -87,8 +86,9 @@
                             <li>Github</li>
                             <li>Visual Studio Code</li>
                         </ul>
-                    </div><!--row 3 in column ends-->
-                </div><!--column 2 end-->
+                    </div><!--column 2 in row end-->
+                </div>
+                </div><!--row 2 end-->
 
             </div><!--container/wrapper for columns end-->
         </div><!--container/wrapper for block 2 end-->
@@ -99,7 +99,7 @@
     <section id="footer-background">
         <footer id="contact" class="css-box-shadow">
           <div class="footer"> <!--container/wrapper-->
-                  <h2>
+                  <h2 style="text-align: center;">
                       Get in Touch:
                   </h2>
                   <p>
@@ -124,12 +124,13 @@
                   </a>
                   <a href="https://www.instagram.com/artofkind.design/" target="_blank" class="instagram-logo">
                       <img src="svg/instagram_brand_logo_social media_icon.svg">
-                  </a>
+                  </a>       
+                  <p style="text-align: center;" >Copyright Alise Skiba 2023</p>         
               </div>
           </div>
           </footer>
-          <p style="color: whitesmoke; text-align: center;">Copyright Alise Skiba 2023</p>
       </section>
+
     
 </body>
 </html>
