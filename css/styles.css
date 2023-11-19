@@ -55,10 +55,21 @@ section#footer-background {
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 50px;
-  display: block;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+  display: flex;
+  align-items: baseline;  
+  align-items: flex-end;
+  justify-content: center; 
+}
+
+p.copywrite {
+  display: flex;
+  align-items: baseline;  
+  align-items: flex-end;
+  justify-content: center; 
+  justify-content: space-around;
 }
 
 footer#contact {
@@ -68,9 +79,11 @@ footer#contact {
   padding: 0px 20px 0px 30px;
   margin: 20px;
   width: 90%;
-  display:block;
-  margin:auto;
   margin-top:50px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
   
 }
 
@@ -115,8 +128,6 @@ nav > ul > li > a {
   padding: 20px 0;
 }
 
-/*About Page*/
-#about-page h3 { margin-top: 0;}
 
 /* font families and sizes */
   h1 { 
@@ -171,8 +182,20 @@ img {
   }
 
  
+  /* ===================================
+  Picture styling 
+  ================================= */
+  img {
+    border-radius: 20px;
+  }
+  
+  footer img {
+    border-radius: 0;
+  }
 
-  /* Button styling */
+  /* ===================================
+  Button styling 
+  ================================= */
 
   .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -237,17 +260,43 @@ img {
     padding-bottom: 0px;
   }
 
-  /* Layout styling */
+
+
+  /* ===================================
+  Layout styling 
+  ================================= */
+
   .container {
     padding: 0px 10px;
   }
   
   .row {
-    margin: 35px 0; /* 25px top and bottom, 0 left and right */
+    margin: 35px 0; /* 35px top and bottom, 0 left and right */
     padding: 12px 0;
     border-bottom: 2px solid #218390;
   }
 
+  .row.no-border{
+      border-bottom: none;
+
+  } 
+
+  .row.no-top-margin{
+    margin-top:0;
+  } 
+
+  #work {
+    margin: 25px 0;
+    padding-top: 20px;
+  }
+
+  #work h2 {
+    margin-bottom: 0;
+  }
+
+  #skills {
+    margin:auto;
+  }
   .column {
     display: inline-block;
   }
@@ -311,7 +360,7 @@ Medium devices (640px and larger)
     display: table;
   }
   
-  .row-no-border::after {
+  .row.no-border::after {
     content: "";
     clear: both;
     display: table;
@@ -323,20 +372,122 @@ Medium devices (640px and larger)
     margin-top: 50px;
   }
 
+  #about-page main {
+    margin-bottom: 150px;
+    padding-bottom: 50px;
+  }
+
+  #about-page h3 { margin: 0;}
+
+  #skills h2 {
+    margin-bottom: 0;
+  }
+
+  #about-page h2 {
+    text-align: center;
+  }
+
 }
 
 
 /* ==============================
 Large devices (1024px or larger)
-================================= */
-@media only screen and (min-width: 1024px) {
- 
-}
+=================================*/
+@media only screen and (min-width: 1010px) {
+   .col-lg-7 {
+    width: 60%;
+    padding: 20px;
+    float: left;
+  }
+
+   .col-lg-5 {
+    width: 40%;
+    padding: 20px;
+    float: left;
+  }
+
+  body {
+    margin:20px;
+    padding: 0;
+  }
+
+  .row.col-lg-7 {
+    width: 100%;
+    float: none;
+  }
+
+  #skills.col-lg-5{
+    width: 100%;
+    float: none;
+  }
+
+  div#skills {
+    width: 50%;
+    padding: 100px;
+  }
+
+  .row.col-lg-7 {
+    padding: 10px;
+  }
+
+  #skills.row.col-lg-5 {
+    padding: 10px;
+    border-bottom: none;
+  }
+
+  
+
+} 
 
 /* ==============================
 X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
+============================= ===*/
+@media only screen and (min-width: 1240px) {
 
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row.col-lg-7 {
+    width: 60%;
+    padding: 10px;
+    float:left;
+    border-bottom: none;
+  }
+
+  .row.col-lg-5 {
+    width: 40%;
+    padding: 10px;
+    float:left;
+    border-bottom: none;
+  }
+
+ 
+
+  .about-pic { 
+    max-width: 70%;
+    margin:auto;
+    display: block;
+  }
+
+  #about-page h2 {
+    text-align: left;
+  }
+
+  #about-page main {
+    margin-bottom: 200px;
+    padding-bottom: 50px;
+  }
+
+  .col-md-6.small-row {
+    float: none;
+  }
+
+  #skills {
+    display: flex;
+    flex-direction:column;
+  }
 
 }
