@@ -59,31 +59,22 @@ section#footer-background {
   left: 50%;
   transform: translate(-50%);
   display: flex;
-  align-items: baseline;  
   align-items: flex-end;
   justify-content: center; 
 }
 
-p.copywrite {
-  display: flex;
-  align-items: baseline;  
-  align-items: flex-end;
-  justify-content: center; 
-  justify-content: space-around;
-}
 
-footer#contact {
+footer{
   border: #FDFDEF solid 3px;
   background-color: #FDFDEF;
   border-radius: 12px;
-  padding: 0px 20px 0px 30px;
-  margin: 20px;
-  width: 90%;
+  padding: 20px;
   margin-top:50px;
   margin-bottom: 50px;
   text-align: center;
   display: flex;
   justify-content: center;
+  width: 80%;
   
 }
 
@@ -118,6 +109,7 @@ nav > ul > li > a {
   font-weight: 700;
   font-size: larger;
 }
+
 
 
 /* hero */
@@ -157,10 +149,17 @@ nav > ul > li > a {
     font-family: 'Mulish', sans-serif;
   }
 
+
+  
+
 /* images */
 img {
     width: 100%;
   }
+
+.hands {
+  padding: 20px;
+}
 
 /* link styles */
   a {
@@ -226,7 +225,7 @@ img {
     padding: 10px;
     border-radius: 30px;
     outline: 2px solid #B58E90;
-    transition: 0.2s opacity;
+    transition: 0.4s background-color;
   }
 
   .button-contact:hover {
@@ -245,12 +244,22 @@ img {
     max-width: 30px;
     display: inline-block;
     margin: 20px;
+    transition: 0.2s transform;
+  }
+
+  .linkedin-logo:hover  {
+    transform: scale(1.5);
   }
 
   .instagram-logo {
     max-width: 30px;
     display: inline-block;
     margin: 50px 0px;
+    transition: 0.2s transform;
+  }
+
+  .instagram-logo:hover {
+    transform: scale(1.5);
   }
 
 
@@ -261,6 +270,63 @@ img {
   }
 
 
+/* Animation */
+
+  #Layer_1 {
+    width: 20%;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+  }
+  @keyframes color-change {
+    0% { fill:#218390;}
+    50% { fill:white}
+    100% { fill:#936f71}
+  }
+
+  @keyframes color-change-2 {
+    0% { fill:#218390;}
+    50% { fill:white}
+    100% { fill:#936f71}
+  }
+
+  @keyframes color-change-3 {
+    0% { fill:#218390;}
+    50% { fill:white}
+    100% { fill:#936f71}
+  }
+
+
+
+  .star {
+    animation-duration: 2.5s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function: linear;
+  }
+
+  .star-back
+  {
+    animation-duration: 4s;
+    animation-name: color-change-2;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function: linear;
+  }
+
+  .star-top 
+  {
+    animation-duration: 3s;
+    animation-name: color-change-3;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function: linear;
+  }
+ 
+.hand-right{
+  max-width: 50px;
+}
 
   /* ===================================
   Layout styling 
@@ -366,11 +432,7 @@ Medium devices (640px and larger)
     display: table;
   }
 
-  footer {
-    max-width: 70%;
-    margin:auto;
-    margin-top: 50px;
-  }
+ 
 
   #about-page main {
     margin-bottom: 150px;
@@ -394,6 +456,11 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 =================================*/
 @media only screen and (min-width: 1010px) {
+
+  main {
+    padding-bottom: 400px;
+  }
+
    .col-lg-7 {
     width: 60%;
     padding: 20px;
@@ -452,14 +519,14 @@ X-large devices (1440px or larger)
 
   .row.col-lg-7 {
     width: 60%;
-    padding: 10px;
+    padding: 0px;
     float:left;
     border-bottom: none;
   }
 
   .row.col-lg-5 {
     width: 40%;
-    padding: 10px;
+    padding: 0px;
     float:left;
     border-bottom: none;
   }
@@ -476,10 +543,12 @@ X-large devices (1440px or larger)
     text-align: left;
   }
 
+ 
   #about-page main {
     margin-bottom: 200px;
     padding-bottom: 50px;
   }
+
 
   .col-md-6.small-row {
     float: none;
@@ -490,4 +559,39 @@ X-large devices (1440px or larger)
     flex-direction:column;
   }
 
+}
+
+
+/* Nav animation*/
+
+ul.nav-links a:before, 
+ul.nav-links a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #D4753E;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+ul.nav-links a:before
+{
+    top: 0px;
+    transform: translateY(-10px);
+}
+
+ul.nav-links a:after
+{
+    bottom: 0px;
+    transform: translateY(10px);
+}
+
+ul.nav-links a:hover:before, 
+ul.nav-links a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
 }
