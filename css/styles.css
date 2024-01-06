@@ -277,6 +277,8 @@ img {
     max-width: 50%;
     height: auto;
     margin: auto;
+    display: flex;
+    align-self: center;
   }
   @keyframes color-change {
     0% { fill:#218390;}
@@ -285,9 +287,9 @@ img {
   }
 
   @keyframes color-change-2 {
-    0% { fill:#218390;}
+    0% { fill:#c1a114;}
     50% { fill:white}
-    100% { fill:#936f71}
+    100% { fill:#df6316}
   }
 
   @keyframes color-change-3 {
@@ -297,12 +299,11 @@ img {
   }
 
 
-
   .star {
-    animation-duration: 2.5s;
+    animation-duration: 4.5s;
     animation-name: color-change;
     animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
+    animation-direction:alternate;
     animation-timing-function: linear;
   }
 
@@ -317,16 +318,15 @@ img {
 
   .star-top 
   {
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-name: color-change-3;
     animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
+    animation-direction:alternate;
     animation-timing-function: linear;
   }
  
-.hand-right{
-  max-width: 50px;
-}
+
+
 
   /* ===================================
   Layout styling 
