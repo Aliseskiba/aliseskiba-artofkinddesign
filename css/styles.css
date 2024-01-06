@@ -139,6 +139,7 @@ nav > ul > li > a {
   h3 {
     font-family: 'Mitr', 'Poppins', sans-serif;
     font-size: 1.3em;
+    margin-block-start: 0;
   }
 
   h4, h5, h6 {
@@ -491,7 +492,8 @@ Large devices (1024px or larger)
 
   div#skills {
     width: 50%;
-    padding: 100px;
+    padding: 10px;
+    
   }
 
   .row.col-lg-7 {
@@ -516,9 +518,9 @@ Large devices (1024px or larger)
 } 
 
 /* ==============================
-X-large devices (1440px or larger)
+X-large devices (1280px or larger)
 ============================= ===*/
-@media only screen and (min-width: 1240px) {
+@media only screen and (min-width: 1280px) {
 
   .container {
     max-width: 1200px;
