@@ -454,12 +454,12 @@ Medium devices (640px and larger)
 
 
 /* ==============================
-Large devices (1060px or larger)
+Large devices (1024px or larger)
 =================================*/
-@media only screen and (min-width: 1060px) {
+@media only screen and (min-width: 1024px) {
 
   main {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
 
    .col-lg-7 {
@@ -505,7 +505,7 @@ Large devices (1060px or larger)
 
   #Layer_1 {
     width: 40%;
-    max-width: 20%;
+    max-width: 30%;
     height: auto;
     margin: auto;
     display: flex;
