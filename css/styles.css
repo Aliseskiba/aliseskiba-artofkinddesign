@@ -273,8 +273,8 @@ img {
 /* Animation */
 
   #Layer_1 {
-    width: 20%;
-    max-width: 50%;
+    width: 80%;
+    max-width: 60%;
     height: auto;
     margin: auto;
     display: flex;
@@ -449,16 +449,17 @@ Medium devices (640px and larger)
     text-align: center;
   }
 
+
 }
 
 
 /* ==============================
-Large devices (1024px or larger)
+Large devices (1060px or larger)
 =================================*/
-@media only screen and (min-width: 1010px) {
+@media only screen and (min-width: 1060px) {
 
   main {
-    padding-bottom: 400px;
+    padding-bottom: 200px;
   }
 
    .col-lg-7 {
@@ -502,6 +503,14 @@ Large devices (1024px or larger)
     border-bottom: none;
   }
 
+  #Layer_1 {
+    width: 40%;
+    max-width: 20%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-self: center;
+  }
   
 
 } 
