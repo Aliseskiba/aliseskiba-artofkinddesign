@@ -12,6 +12,10 @@ Font Color (Dark Brown): #431805;
   box-sizing: border-box;
 }
 
+[class*="col-"] {
+  float: left;
+}
+
 header {
   background-color: #FDFDEF;
   text-align: center;
@@ -54,10 +58,6 @@ section#footer-background {
   width: 100%;
   margin-left: 0px;
   margin-right: 0px;
-  margin-bottom: 50px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
   display: flex;
   align-items: flex-end;
   justify-content: center; 
@@ -126,6 +126,8 @@ nav > ul > li > a {
     font-family:'Poiret One', sans-serif;
     font-size: 1.8em;
   }
+
+
   #hero h1 {
     text-align: center; 
   }
@@ -151,7 +153,26 @@ nav > ul > li > a {
   }
 
 
-  
+/* font colors and styles*/
+
+.green {
+  color: #1F371F;
+}
+
+.brown {
+  color:#431805;
+}
+
+.center-text {
+  text-align:center;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+
+
 
 /* images */
 img {
@@ -333,6 +354,28 @@ img {
   Layout styling 
   ================================= */
 
+  /*margin and padding styling*/
+.padding50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.no-top-margin{
+  margin-top:0;
+} 
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.no-top-padding {
+  padding-top: 0;
+}
+
   .container {
     padding: 0px 10px;
   }
@@ -348,9 +391,6 @@ img {
 
   } 
 
-  .row.no-top-margin{
-    margin-top:0;
-  } 
 
   #work {
     margin: 25px 0;
@@ -389,8 +429,6 @@ Medium devices (640px and larger)
   } 
 
   body {
-    margin: 10px 50px;
-    padding: 10px 30px;
     font-size: 18px;
   }
 
@@ -418,7 +456,6 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
     padding: 20px;
-    float: left;
   }
 
   .row::after {
@@ -466,19 +503,13 @@ Large devices (1024px or larger)
    .col-lg-7 {
     width: 60%;
     padding: 20px;
-    float: left;
   }
 
    .col-lg-5 {
     width: 40%;
     padding: 20px;
-    float: left;
   }
 
-  body {
-    margin:20px;
-    padding: 0;
-  }
 
   .row.col-lg-7 {
     width: 100%;
@@ -538,7 +569,6 @@ X-large devices (1280px or larger)
   .row.col-lg-5 {
     width: 40%;
     padding: 0px;
-    float:left;
     border-bottom: none;
   }
  
