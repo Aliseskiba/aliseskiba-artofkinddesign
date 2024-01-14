@@ -38,8 +38,6 @@ header.css-box-shadow{
 }
 
 main {
-  padding-top: 200px;
-  padding-bottom: 100px;
   margin: 0px 20px 10px 20px;
 }
 
@@ -470,12 +468,7 @@ Medium devices (640px and larger)
     display: table;
   }
 
- 
 
-  #about-page main {
-    margin-bottom: 150px;
-    padding-bottom: 50px;
-  }
 
   #about-page h3 { margin: 0;}
 
@@ -583,11 +576,6 @@ X-large devices (1280px or larger)
     text-align: left;
   }
 
- 
-  #about-page main {
-    margin-bottom: 200px;
-    padding-bottom: 50px;
-  }
 
 
   .col-md-6.small-row {
