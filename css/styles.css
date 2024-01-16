@@ -18,7 +18,7 @@ Font Color (Dark Brown): #431805;
 
 header {
   background-color: #FDFDEF;
-  padding: 0px 0px 10px;
+  padding: 10px 0px 4px;
   width: 100%;
   top: 0;
   display: inline-block;
@@ -35,9 +35,10 @@ header.css-box-shadow{
   -webkit-box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1)  ; 
   -moz-box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1)  ; 
 }
-
+/* Main Main*/
 main {
   margin: 0px 20px 10px 20px;
+  padding-top: 56px;
 }
 
 body {
@@ -113,9 +114,9 @@ nav > ul > li > a {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 20px;
+  top: 11px;
   font-size: 25px;
-  padding-right: 0;
+  padding-right: 10px;
 }
 
 .nav-links {
@@ -128,6 +129,7 @@ nav > ul > li > a {
   display: inline-block;
   width: 100%;
   padding: 20px 0;
+  border-bottom: #218390 solid 2px;
 }
 
 
@@ -296,10 +298,11 @@ img {
 
 
   .logo {
-    max-width:50px;
+    max-width:60px;
     display: inline-block;
     padding-bottom: 0px;
-    padding-top: 10px;
+  
+    padding-left: 10px;
   }
 
 
@@ -383,7 +386,6 @@ img {
 
 
 #work {
-  margin: 25px 0;
   padding-top: 20px;
 }
 
@@ -403,7 +405,7 @@ img {
 } 
 
 .space-below {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .no-bottom-margin {
@@ -429,6 +431,10 @@ Medium devices (640px and larger)
   .nav-links {
     margin: 20px;
 
+  }
+
+  nav > ul {
+    margin: 1em 0;
   }
   
   .logo {
@@ -458,10 +464,10 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
-
   main {
     padding-top: 120px;
   } 
+
 
   body {
     font-size: 18px;
@@ -469,7 +475,7 @@ Medium devices (640px and larger)
 
   #hero {
     text-align: center;
-    border-bottom: #218390 solid 2px;
+
   }
 
   #hero span {
@@ -536,7 +542,7 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
 
   main {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
   }
 
 
@@ -554,9 +560,9 @@ Large devices (1024px or larger)
 } 
 
 /* ==============================
-X-large devices (1280px or larger)
+X-large devices (1240px or larger)
 ============================= ===*/
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1220px) {
 
   .padding50 {
     padding-left: 50px;
