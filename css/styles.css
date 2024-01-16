@@ -41,6 +41,10 @@ main {
   padding-top: 56px;
 }
 
+#about-main {
+  padding-top: 76px;
+}
+
 body {
   background-color: #FDFDEF;
   color: #431805;
@@ -88,13 +92,11 @@ footer.css-box-shadow{
 
 /* Navigation */
 
-
 nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -121,6 +123,11 @@ nav > ul > li > a {
 
 .nav-links {
   margin: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  text-align: right;
 }
 
 /* hero */
