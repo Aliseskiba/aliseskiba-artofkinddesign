@@ -184,6 +184,11 @@ nav > ul > li > a {
     font-family: 'Mulish', sans-serif;
   }
 
+  .p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
+  }
+
 
 /* font colors and styles*/
 
@@ -211,7 +216,11 @@ nav > ul > li > a {
   text-decoration: underline;
 }
 
+.strike { text-decoration-line: line-through; }
 
+.blue-text {
+  color: #218390;
+}
 
 /* images */
 img {
@@ -263,7 +272,7 @@ img {
     color: black; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 13px;
     transition: 0.2s opacity;
   }
 
@@ -299,11 +308,34 @@ img {
     outline: 2px solid #994c30
   }
 
+  .button-secondary {
+    display: inline-block; 
+    background-color: transparent; 
+    text-transform: uppercase;
+    color: black; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 13px;
+    outline: 2px solid #B58E90;
+    transition: 0.4s background-color;
+  }
+
+  .button-secondary:hover {
+    background-color: #B58E90;
+    color: black;
+  }
+
+  .button-secondary:active {
+    background-color: #D4753E;
+    outline: 2px solid #994c30
+  }
+
 /* Icon styling */
 
   .linkedin-logo {
     max-width: 30px;
-    display: inline-block;
+    display: inline;
     margin: 20px;
     transition: 0.2s transform;
   }
@@ -473,6 +505,7 @@ img {
 
 
 
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -548,6 +581,11 @@ Medium devices (640px and larger)
     font-size: .8em;
   }
 
+  .col-md-3 {
+    width: 33%;
+    padding: 0 10px;
+  }
+
   .col-md-6 {
     width: 50%;
     padding: 0 20px;
@@ -557,6 +595,24 @@ Medium devices (640px and larger)
     content: "";
     clear: both;
     display: table;
+  }
+
+  .width50 {
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-self: center;
+    
+  }
+  
+  .width80 {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-self: center;
+    
   }
   
   .row.no-border::after {
