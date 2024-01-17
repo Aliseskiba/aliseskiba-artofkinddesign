@@ -9,3 +9,22 @@ function menuToggle() {
         x.className = 'navtoggle';
     }
 }
+
+
+$(document).ready(function(){
+    $(".navbar a").on('click', function(event) {
+  
+      if (this.hash !== "") {
+  
+        event.preventDefault();
+  
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 1300, function(){
+  
+          window.location.hash = hash;
+        });
+      }
+    });
+  });
