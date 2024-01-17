@@ -203,6 +203,13 @@ nav > ul > li > a {
   font-weight: bold;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.underlined {
+  text-decoration: underline;
+}
 
 
 
@@ -215,7 +222,7 @@ img {
   padding: 20px;
 }
 
-/* link styles */
+/* buttons / link styles */
   a {
     color: #936f71;
     text-decoration: none; /* No underlining */
@@ -418,14 +425,18 @@ img {
 }
 
 
-  /*margin and padding styling*/
+/*margin and padding styling*/
 
 .no-top-margin{
   margin-top:0;
 } 
 
-.space-below {
+.padding-below20 {
   padding-bottom: 20px;
+}
+
+.bottom-margin50 {
+  margin-bottom: 50px;
 }
 
 .no-bottom-margin {
@@ -440,6 +451,25 @@ img {
   padding-top: 0;
 }
 
+
+/* Centering and sizing*/
+
+.half-size{
+  width: 50%;
+  max-width: 50%;
+}
+
+.quarter-size {
+  width:25%;
+  max-width: 25%;
+}
+
+.centered {
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-self: center;
+}
 
 
 
