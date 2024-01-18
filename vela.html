@@ -20,7 +20,7 @@
 <body id="vela-page">
     <header class="css-box-shadow">
         <div class="container">  <!--container/wrapper-->
-            <div class="navtoggle navbar" ID="myNavtoggle">
+            <div class="navtoggle smoothscroll" ID="myNavtoggle">
             <img class="logo" src="img/logo-no-background.png" alt="Art of Kind Design logo" class="logo">
              <nav> 
             <ul class="nav-links">
@@ -35,11 +35,10 @@
     </header>
 
     <main>
-        <div class="width80"> <!--start width80-->
-        <div class="padding50"><!--start padding50div-->
+    <div class="padding50 width80"><!--start padding50div-->
         <div id="topofvela"><!--block 1 start-->
-            <div class="container"><!--container start-->
-                <div class="center-text row bottom-margin50" ><!--heading area-->
+            <div class="container center-text padding-below20 border-bottom"><!--container start-->
+        
                     <div><!--picture area start-->
                         <picture class="quarter-size centered" id="vela-logo">
                             <source srcset="img/vela/vela-logo-600x600.png" media="(max-width:600px)">
@@ -51,27 +50,29 @@
                     <div class="smoothscroll">
                         <a href="#vela-prototype" class="button">Scroll To Final Prototype</a>
                     </div>
-                </div><!--heading area end-->
-            </div><!--container end-->  
         
+            </div><!--container end-->
+        </div><!--block 1 end-->
+        
+        <div><!--block start-->
             <div class="container"><!--container start-->
-                <div><!--project overview start-->
-                <div class="row"><!--row1 starts-->
-                <div><!--heading-->
+            <div><!--project overview start-->
+            
                     <h2>Vela</h2>
                     <h3>Project Overview</h3>
                     <p>Introducing Vela, an interactive weather-mapping web app.</p>
-                </div><!--end heading-->
-                <div>
+                
                     <p class="bold-text blue-text">The Problem /</p>
                     <p>Dangerous water sports enthusiasts need a way to check conditions before and during their activity. The format of how they check conditions needs to be easy to understand so that they can quickly feel more prepared for a day on the water.</p>
-                </div>
-                <div class="col-lg-7">
+            </div>
+               
+
+            <div class="row"><!--row1 start-->
+                <div class="col-md-6 col-lg-7">
                     <p class="bold-text blue-text">VELA goal /</p>
                     <p>Help keep water sports enthusiasts safe while playing in the ocean through accurate, easy to use weather and conditions reporting. </p>
-                
                 </div>
-                <div class="col-lg-5">
+                <div class="col-md-6 col-lg-5">
                     <p class="bold-text blue-text">My Contributions /</p>
                     <ul class="p">
                         <li>Research</li>
@@ -81,15 +82,14 @@
                     </ul>
                 </div>
             </div><!--row1 ends-->
-            </div><!--project overview end-->
+            
             </div><!--container end-->
-        </div><!--block 1 end-->
+        </div><!--block end-->
 
         <div><!--block 2 start-->
             <div class="container"><!--container start-->
-                <div><!--heading area-->
                     <h2>My Process</h2>
-                </div><!--heading area end-->
+                
                 <div><!--picture area start-->
                     <picture>
                         <source srcset="img/vela/vela-final-1x.jpeg" media="(max-width:767px)">
@@ -110,7 +110,7 @@
                         <li><b>Contextual Inquiries:</b> Watching 1 user go through the steps to plan a sail trip on a competitor app gave context to the way they planned and the user flow.</li>  
                     </ol>
                 </div><!--project overview end-->
-                <div ><!--picture area start-->
+                <div class="padding-below20"><!--picture area start-->
                     <picture>
                         <source srcset="img/vela/vela-ideations-1x.jpg" media="(max-width:767px)">
                         <img src="img/vela/vela-ideations-2x.jpg" alt="Vela">
@@ -133,7 +133,7 @@
                     <p>The user flow is created to show how my users will complete their tasks in certain scenarios. I want their experience with my web app to be simple, and enjoyable. This is why I needed to know the least amount of steps they will need to do in order to complete their task. </p>
                     <p>The steps my users will be performing when completing a task were then translated into wireframes and prototypes. Once the prototypes were created, I tested them with users to see how effective they actually are!</p>
                 </div><!--project overview end-->
-                <div ><!--picture area start-->
+                <div class="padding-below20" ><!--picture area start-->
                     <picture>
                         <source srcset="img/vela/vela-personas-1x.jpeg" media="(max-width:767px)">
                         <img src="img/vela/vela-personas-2x.jpeg" alt="Vela">
@@ -151,7 +151,7 @@
                         We want to ensure that what is created is the right design choices before developing it further.
                     </p>
                 </div><!--project overview end-->
-                <div ><!--picture area start-->
+                <div class="padding-below20"><!--picture area start-->
                     <picture>
                         <source srcset="img/vela/vela-paper-wireframes-1x.jpeg" media="(max-width:767px)">
                         <img src="img/vela/vela-paper-wireframes-2x.jpeg" alt="Vela">
@@ -171,7 +171,7 @@
                         Mid-fidelity wireframes help to show the user what it would actually be like to move through my application and use the three different features.
                     </p>
                 </div><!--project overview end-->
-                <div ><!--picture area start-->
+                <div class="padding-below20"><!--picture area start-->
                     <picture>
                         <source srcset="img/vela/vela-wireframes-1x.jpeg" media="(max-width:767px)">
                         <img src="img/vela/vela-wireframes-2x.jpeg" alt="Vela">
@@ -214,13 +214,12 @@
 
                 <div class="smoothscroll padding-below20">
                     <a href="#topofvela" class="button-secondary">Back to Top</a>
-                    <a href="/index.html" class="button-secondary">See More of My Work</a>
+                    <a href="#work" class="button-secondary">See More of My Work</a>
                 </div>
             </div><!--container end-->
         </div><!--block 8 end-->
     </div><!--end padding50 div-->
-</div><!--end width80 div-->
-    </main>
+</main>
 
 <!--FOOTER-->
     <section id="footer-background">
@@ -253,9 +252,11 @@
                       <img src="svg/instagram_brand_logo_social media_icon.svg">
                   </a>
               </div>
+
+              <p style=" text-align: center;">Copyright Alise Skiba 2023</p>
           </div>
           </footer>
-          <p style="color: whitesmoke; text-align: center;">Copyright Alise Skiba 2023</p>
+          
       </section>  
 
        <!-- Javascript files-->
