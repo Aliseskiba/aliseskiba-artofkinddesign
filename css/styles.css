@@ -206,6 +206,7 @@ nav > ul > li > a {
 
 .bold-text {
   font-weight: bold;
+  font-family: 'Poppins';
 }
 
 .italic {
@@ -466,6 +467,10 @@ img {
   margin-top:0;
 } 
 
+.no-left-padding {
+  padding-left: 0;
+}
+
 .padding-below20 {
   padding-bottom: 20px;
 }
@@ -583,7 +588,7 @@ Medium devices (640px and larger)
   ul {
     font-size: .8em;
   }
-
+ 
   .col-md-3 {
     width: 33%;
     padding: 0 10px;
@@ -642,6 +647,10 @@ Medium devices (640px and larger)
   
   }
 
+  .no-left-padding {
+    padding-left: 0;
+  }
+
 }
 
 
@@ -663,6 +672,10 @@ Large devices (1024px or larger)
    .col-lg-5 {
     width: 40%;
     padding: 0 15px;
+  }
+
+  .no-left-padding {
+    padding-left: 0;
   }
   
 
