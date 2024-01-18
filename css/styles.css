@@ -315,7 +315,7 @@ img {
     color: black; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
-    margin: 0 10px;
+    margin: 10px;
     border-radius: 13px;
     outline: 2px solid #B58E90;
     transition: 0.4s background-color;
@@ -335,7 +335,7 @@ img {
 
   .linkedin-logo {
     max-width: 30px;
-    display: inline;
+    display: inline-block;
     margin: 20px;
     transition: 0.2s transform;
   }
@@ -443,6 +443,9 @@ img {
 
 } 
 
+.border-bottom {
+  border-bottom: #218390 solid 2px;
+}
 
 #work {
   padding-top: 20px;
@@ -601,7 +604,7 @@ Medium devices (640px and larger)
     max-width: 50%;
     height: auto;
     margin: auto;
-    display: flex;
+    
     align-self: center;
     
   }
@@ -610,7 +613,7 @@ Medium devices (640px and larger)
     max-width: 80%;
     height: auto;
     margin: auto;
-    display: flex;
+    
     align-self: center;
     
   }
