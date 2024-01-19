@@ -644,10 +644,6 @@ Medium devices (640px and larger)
   #Layer_1 {
     width: 40%;
     max-width: 30%;
-    height: auto;
-    margin: auto;
-    display: flex;
-    align-self: center;
   
   }
 
@@ -702,12 +698,12 @@ X-large devices (1240px or larger)
   }
 
   .about-pic { 
-    max-width: 70%;
+    max-width: 80%;
     margin:auto;
     display: block;
   }
 
-  #about-page h2 {
+  #about-main h2 {
     text-align: left;
   }
 
