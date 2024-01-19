@@ -50,7 +50,7 @@ body {
   background-color: #FDFDEF; 
   color: #431805;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -586,7 +586,7 @@ Medium devices (640px and larger)
   }
 
   h3 {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
   ul {
