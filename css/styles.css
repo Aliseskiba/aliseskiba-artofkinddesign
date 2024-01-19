@@ -377,7 +377,7 @@ img {
     max-width: 60%;
     height: auto;
     margin: auto;
-    display: flex;
+    display: inline-block;
     align-self: center;
     padding-bottom: 20px;
   }
@@ -644,12 +644,6 @@ Medium devices (640px and larger)
   #Layer_1 {
     width: 40%;
     max-width: 30%;
-    height: auto;
-    margin: auto;
-    display: flex;
-    align-self: center;
-    padding-bottom: 20px;
-  
   }
 
   .no-left-padding {
