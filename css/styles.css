@@ -377,7 +377,7 @@ img {
     max-width: 60%;
     height: auto;
     margin: auto;
-    display: inline-block;
+    display: block;
     align-self: center;
     padding-bottom: 20px;
   }
