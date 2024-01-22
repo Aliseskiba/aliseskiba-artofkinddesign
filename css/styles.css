@@ -102,7 +102,7 @@ nav > ul {
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   font-size: larger;
 }
 
@@ -526,7 +526,6 @@ Medium devices (640px and larger)
 
   .nav-links {
     margin: 20px;
-
   }
 
   nav > ul {
