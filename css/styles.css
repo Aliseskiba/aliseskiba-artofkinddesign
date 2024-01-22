@@ -2,7 +2,7 @@
 Colors used:
 Primary Color (White): #FDFDEF;
 Primary Color (Dark Green): #1F371F;
-Secondary Color (Pink): #B58E90;
+Secondary Color (Pink): #B58E90; Dark-- #936f71;
 Secondary Color (Blue): #218390;
 Tertiary Color (Orange): #D4753E;
 Font Color (Dark Brown): #431805;
@@ -50,7 +50,7 @@ body {
   background-color: #FDFDEF; 
   color: #431805;
   font-family: 'Mitr','Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -201,6 +201,10 @@ nav > ul > li > a {
   .header-text {
     display: inline-block;
     font-size: .8em;
+  }
+
+  .pink-text{
+    color:#936f71;
   }
 
 
@@ -574,7 +578,7 @@ Medium devices (640px and larger)
 
 
   body {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .hero {
