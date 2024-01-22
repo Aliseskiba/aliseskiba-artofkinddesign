@@ -93,6 +93,8 @@ footer.css-box-shadow{
 
 /* Navigation */
 
+
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -154,6 +156,8 @@ nav > ul > li > a {
 }
 
 
+
+
 /* font families and sizes */
   h1 { 
     font-family:'Poiret One', sans-serif;
@@ -192,6 +196,11 @@ nav > ul > li > a {
   .p {
     font-family: 'Mulish', sans-serif;
     font-size: 1em;
+  }
+
+  .header-text {
+    display: inline-block;
+    font-size: .8em;
   }
 
 
@@ -707,3 +716,5 @@ X-large devices (1240px or larger)
   }
 
 }
+
+
