@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LN40EYK7ER"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LN40EYK7ER"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag("config", "G-LN40EYK7ER");
+    </script>
 
-  gtag('config', 'G-LN40EYK7ER');
-</script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="AliseSkiba">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="AliseSkiba" />
     <meta
       name="decription"
-      content="About Alise Skiba, Art of Kind Design, web design studio and UX/UI designer based in Bellingham, WA">
+      content="About Alise Skiba, Art of Kind Design, web design studio and UX/UI designer based in Bellingham, WA"
+    />
     <!--Font Awesome Link-->
     <script
       src="https://kit.fontawesome.com/066d90f369.js"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
     <!--Style Sheets-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer">
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <!--GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&family=Montserrat&family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
     <title>Vela UX and UI Design by Alise</title>
   </head>
 
@@ -46,17 +54,27 @@
         <!--container/wrapper-->
         <!--NAVIGATION-->
         <div class="navtoggle" id="myNavtoggle">
-          <a href="index.html"> <img class="logo" src="img/logo-no-background.png" alt="Art of Kind Design logo" ></a>
-          <p class="header-text"> ART OF KIND DESIGN</p>
+          <a href="index.html">
+            <img
+              class="logo"
+              src="img/logo-no-background.png"
+              alt="Art of Kind Design logo"
+          /></a>
+          <p id="header-text">ART OF KIND DESIGN</p>
           <nav>
             <ul class="nav-links">
               <li class="smoothscroll"><a href="index.html">Work</a></li>
               <li class="smoothscroll"><a href="about.html">About</a></li>
-              <li class="smoothscroll"><a href="#contact" onclick="menuToggle()">Contact</a></li>
-               <li><a
+              <li class="smoothscroll">
+                <a href="#contact" onclick="menuToggle()">Contact</a>
+              </li>
+              <li>
+                <a
                   href="javascript:void(0);"
                   class="icon"
-                  onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a>
+                  onclick="menuToggle()"
+                  ><i class="fa-solid fa-bars"></i
+                ></a>
               </li>
             </ul>
           </nav>
@@ -65,20 +83,20 @@
     </header>
 
     <main>
-      <div class="padding50 width80">
+      <div>
         <!--start padding50div-->
         <div id="topofvela">
           <!--block 1 start-->
           <div class="container center-text padding-below20 border-bottom">
             <!--container start-->
-
             <div>
               <!--picture area start-->
               <picture class="quarter-size centered" id="vela-logo">
                 <source
                   srcset="img/vela/vela-logo-600x600.png"
-                  media="(max-width:600px)">
-                <img src="img/vela/vela-logo-1200x1200.png" alt="Vela logo" >
+                  media="(max-width:600px)"
+                />
+                <img src="img/vela/vela-logo-1200x1200.png" alt="Vela logo" />
               </picture>
             </div>
             <!--picture area end-->
@@ -88,7 +106,8 @@
             </p>
             <div class="smoothscroll">
               <a href="#vela-prototype" class="button"
-                >Scroll To Final Prototype</a>
+                >Scroll To Final Prototype</a
+              >
             </div>
           </div>
           <!--container end-->
@@ -105,17 +124,18 @@
               <h2>Vela</h2>
               <h3>Project Overview</h3>
               <p>Introducing Vela, an interactive weather-mapping web app.</p>
+
               <div class="padding-below20">
                 <!--picture area start-->
                 <picture>
                   <source
                     srcset="img/vela/intro-600x300.png"
                     media="(max-width:767px)"
-                  >
+                  />
                   <img
                     src="img/vela/intro-1200x600.png"
                     alt="Vela App Mobile Screens"
-                  >
+                  />
                 </picture>
               </div>
               <!--picture area end-->
@@ -130,7 +150,7 @@
 
             <div class="row">
               <!--row1 start-->
-              <div class="col-md-6 col-lg-7 no-left-padding">
+              <div class="col-md-6 col-lg-7 ">
                 <p class="bold-text blue-text">VELA goal /</p>
                 <p>
                   Help keep water sports enthusiasts safe while playing in the
@@ -203,8 +223,11 @@
                 <source
                   srcset="img/vela/vela-ideations-1x.jpg"
                   media="(max-width:767px)"
-                >
-                <img src="img/vela/vela-ideations-2x.jpg" alt="Vela ideations" >
+                />
+                <img
+                  src="img/vela/vela-ideations-2x.jpg"
+                  alt="Vela ideations"
+                />
               </picture>
             </div>
             <!--picture area end-->
@@ -263,8 +286,8 @@
                 <source
                   srcset="img/vela/vela-personas-1x.jpeg"
                   media="(max-width:767px)"
-                >
-                <img src="img/vela/vela-personas-2x.jpeg" alt="Vela" >
+                />
+                <img src="img/vela/vela-personas-2x.jpeg" alt="Vela" />
               </picture>
             </div>
             <!--picture area end-->
@@ -295,8 +318,11 @@
                 <source
                   srcset="img/vela/vela-paper-wireframes-1x.jpeg"
                   media="(max-width:767px)"
-                >
-                <img src="img/vela/vela-paper-wireframes-2x.jpeg" alt="Vela paper wireframes" >
+                />
+                <img
+                  src="img/vela/vela-paper-wireframes-2x.jpeg"
+                  alt="Vela paper wireframes"
+                />
               </picture>
             </div>
             <!--picture area end-->
@@ -328,8 +354,12 @@
               <picture>
                 <source
                   srcset="img/vela/vela-wireframes-1x.png"
-                  media="(max-width:767px)">
-                <img src="img/vela/vela-wireframes-2x.png" alt="Vela wireframes" >
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/vela/vela-wireframes-2x.png"
+                  alt="Vela wireframes"
+                />
               </picture>
             </div>
             <!--picture area end-->
@@ -360,8 +390,11 @@
                 <source
                   srcset="img/vela/vela-final-mockups-1x.jpeg"
                   media="(max-width:767px)"
-                >
-                <img src="img/vela/vela-final-mockups-2x.jpeg" alt="Vela final mockups" >
+                />
+                <img
+                  src="img/vela/vela-final-mockups-2x.jpeg"
+                  alt="Vela final mockups"
+                />
               </picture>
             </div>
             <!--picture area end-->
@@ -401,9 +434,9 @@
             </div>
             <!--project overview end-->
 
-            <div class="smoothscroll padding-below20">
-              <a href="#topofvela" class="button-secondary">Back to Top</a>
-              <a href="work" class="button-secondary">See More of My Work</a>
+            <div class="padding-below20">
+             <span class="smoothscroll" ><a href="#topofvela" class="button-secondary">Back to Top</a></span> 
+              <a href="index.html#work" class="button-secondary">See More of My Work</a>
             </div>
           </div>
           <!--container end-->
@@ -441,15 +474,17 @@
               target="_blank"
               class="linkedin-logo"
             >
-              <img src="svg/linkedin_logo_icon.svg" alt="Linked In" >
+              <img src="svg/linkedin_logo_icon.svg" alt="Linked In" />
             </a>
             <a
               href="https://www.instagram.com/artofkind.design/"
               target="_blank"
-              class="instagram-logo" >
+              class="instagram-logo"
+            >
               <img
                 src="svg/instagram_brand_logo_social_media_icon.svg"
-                alt="Instagram">
+                alt="Instagram"
+              />
             </a>
           </div>
 
